@@ -1,0 +1,91 @@
+
+body{
+  height: 100%;
+  margin: 0;
+  padding-bottom: 110vh;
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background: 	#F8F9FB;
+}
+
+.header{
+  background-color:white;
+  display: flex;
+  height: 150px;
+}
+
+.logo img {
+  width: 40%;
+  height: auto;
+}
+
+nav{
+ margin-top: 60px ;
+ text-decoration: none 
+}
+.a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item{
+font-size: 30px;
+display: inline;
+font-size: 25px;
+margin-right: 10px;
+}
+
+
+
+.carousel{
+  margin: 0 auto;
+  width: 60%;
+}
+
+.card-group{
+
+  display: flex;
+  height: 10px;
+  justify-content: center;
+  margin: 15px;
+}
+.card img {
+  
+  width: 30%;
+  height: auto;
+  margin: center;
+  margin: 20px;
+}
+
+
+ .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+ }
+ 
+
+ .carousel-inner{
+  /* display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center; */
+  /* margin: 0 auto; */
+}
+.carousel-item{
+  /* margin: 0 auto; */
+/* height: auto;
+width: auto; */
+/* margin:0 auto; */
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+.carousel-item img {
+  /* height: 600px;
+  width: 90%; */
+}
