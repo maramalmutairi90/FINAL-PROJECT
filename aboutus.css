@@ -1,19 +1,18 @@
 
-
 body{
   height: 100%;
   margin: 0;
-  padding-bottom: 11vh;
+  padding-bottom: 30vh;
   min-height: 100vh;
-  position: relative;
+  position: fixed;
   font-family: 'Montserrat', sans-serif;
   background: 	#F8F9FB;
 }
 
 .header{
-  background-color:white;
+  background: 	#F8F9FB;
   display: flex;
-  height: 150px;
+  height: 110px;
 }
 
 .logo img {
@@ -22,9 +21,11 @@ body{
 }
 
 nav{
- margin-top: 60px ;
- text-decoration: none 
-}
+  margin-top: 60px ;
+  margin-left: 150px; 
+    text-decoration: none 
+ }
+
 .a{
   text-decoration: none;
   color: black;
@@ -36,39 +37,37 @@ display: inline;
 font-size: 25px;
 margin-right: 10px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   color: black;
   text-align: center;
+  margin-left: -10%;
  }
   .mainpage{
     display: flex;
-    justify-content: left;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    /* padding-left: 0; */
   }
 
-  .logo2 img{
-    width: 50%;
-    height: auto;
-    justify-items: end;
-    margin-top: 10%;
-    margin-right: 10%;
-    position: fixed;
-    text-align: justify;
-  }
+
 .aboutus{
     width: 70%;
-    height: auto;
-    justify-items: left;
-    margin-top: 20px;
     text-align: center;
-    padding-left: 0;
-    position: inherit;
+    justify-items: center;
+    margin-top: 100px;
+
+
 }
 #map{
-  height: 450px;
-  width: 450px;
-  margin-left: 750px;
-  margin-top: 20px;
+ 
+  width: 350px;
+  height:350px;
+  justify-items: center;
+  text-align: center;
+
 }
